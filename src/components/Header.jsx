@@ -4,9 +4,18 @@ import './Header.css';
 const Header = () => {
     return (
         <header className='header'>
-            <img src='https://sun9-34.userapi.com/s/v1/if1/7wSdV6V_nvCJZ41DONhCnqh0p2UO8vT9-b8uuV3y5ZGsUqUbtEXoXXoyojI-2JM-gwZLdTjD.jpg?size=1862x1862&quality=96&type=album' 
-            width={100} height={100}></img>
-            Шапка сайта
+            <div className='number_first'>x-xxx-xxx-xx-xx</div>
+            <div className='nuber_second'>x-xxx-xxx-xx-xx</div>
+            <div className='return_letter'>Напишите нам</div>
+            <div className='back_call'>Обратный звонок</div>
+            <div className='to_come_in'>Войти</div>
+            <div className='basket'>Корзина</div>
+            
+            
+            
+            
+            
+            
         </header>
     )
 }

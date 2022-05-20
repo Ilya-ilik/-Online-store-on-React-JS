@@ -1,0 +1,42 @@
+.navbar {
+    height: 70px; /* Цвет шапки */
+    background-color: #E0FFFF;
+  display: grid;
+  grid-template-areas:
+    'd1 d2 d3 d4 d5 d6 d7 d8';
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.d1 {
+    grid-area: d1;
+}
+
+.d2 {
+    grid-area: d2;
+}
+
+.d3 {
+    grid-area: d3;
+}
+
+.d4 {
+    grid-area: d4;
+}
+
+.d5 {
+    grid-area: d5;
+}
+
+.d6 {
+    grid-area: d6;
+}
+
+.d7 {
+    grid-area: d7;
+}
+
+.d8 {
+    grid-area: d8;
+}
+

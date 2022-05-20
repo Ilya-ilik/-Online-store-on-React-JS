@@ -1,0 +1,33 @@
+.header {
+    height: 70px; /* Цвет шапки */
+    background-color: #E0FFFF;
+  display: grid;
+  grid-template-areas:
+    'nf ns rl bc tci b';
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.number_first {
+    grid-area: nf;
+}
+
+.nuber_second {
+    grid-area: ns;
+}
+
+.return_letter {
+    grid-area: rl;
+}
+
+.back_call {
+    grid-area: bc;
+}
+
+.to_come_in {
+    grid-area: tci;
+}
+
+.basket {
+    grid-area: b;
+}

@@ -4,7 +4,7 @@ import './File.css';
 const File = () => {
     return (
         <div>
-            
+            Основной файл сайта
         </div>
        
     )

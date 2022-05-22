@@ -17,26 +17,12 @@ function App(props) {
       <Catalog/> */}
       <Routes>
           <Route path="/file" element={<File/>} />
-          <Route path="/catalog" element={<Catalog block_1={props.block_1} block_2={props.block_2} block_3={props.block_3} block_4={props.block_4} block_5={props.block_5} block_6={props.block_6}/>} />
+          <Route path="/catalog" element={<Catalog blockCatalog={props.blockCatalog} />} />
         </Routes>
       <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      
+      
+      
       
       
 

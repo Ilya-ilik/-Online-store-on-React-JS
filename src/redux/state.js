@@ -1,3 +1,4 @@
+
 //Картинка главная
 export let img1 = (
   <img
@@ -21,6 +22,8 @@ export const blockCatalog = (
       </div>
       <div>Шары без рисунка</div>
     </div>
+    
+    {/* Шары без рисунка */}
 
     {/* Блок каталога 2 */}
     <div className="div2">
